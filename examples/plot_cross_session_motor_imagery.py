@@ -36,7 +36,7 @@ from mne.decoding import CSP
 from pyriemann.estimation import Covariances
 from pyriemann.tangentspace import TangentSpace
 
-from moabb.datasets import BNCI2014001
+from moabb.datasets import BNCI2014001c
 from moabb.paradigms import LeftRightImagery
 from moabb.evaluations import CrossSessionEvaluation
 
