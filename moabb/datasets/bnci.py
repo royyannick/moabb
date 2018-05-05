@@ -693,7 +693,7 @@ class BNCI2014001(MNEBNCI):
             doi='10.3389/fnins.2012.00055')
 
 
-class BNCI2014001c(MNEBNCI):
+class BNCI2014001c(BNCI2014001):
     def _get_single_subject_data(self, subject):
         """return data for a single subject"""
         sessions = load_data(subject=subject, dataset=self.code, verbose=False, update_path=True)
